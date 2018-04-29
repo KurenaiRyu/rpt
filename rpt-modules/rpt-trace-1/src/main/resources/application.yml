@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: trace-1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.200.233:8761/eureka/
+
+server:
+  port: 8083
