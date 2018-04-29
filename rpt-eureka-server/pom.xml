@@ -12,7 +12,7 @@
     <description>Rpt Eureka Server</description>
 
     <parent>
-        <groupId>com.github</groupId>
+        <groupId>com.github.rpt</groupId>
         <artifactId>rpt</artifactId>
         <version>${rpt.version}</version>
     </parent>
@@ -22,11 +22,9 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
     </dependencies>
 

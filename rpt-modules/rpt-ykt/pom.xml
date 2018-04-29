@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.rpt</groupId>
-    <artifactId>ykt</artifactId>
+    <artifactId>rpt-ykt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>com.github.rpt</groupId>
-        <artifactId>modules</artifactId>
+        <artifactId>rpt-modules</artifactId>
         <version>${rpt.version}</version>
     </parent>
 

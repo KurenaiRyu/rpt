@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github</groupId>
+    <groupId>com.github.rpt</groupId>
     <artifactId>rpt</artifactId>
     <version>${rpt.version}</version>
     <packaging>pom</packaging>
@@ -66,6 +66,8 @@
         <module>rpt-gateway</module>
         <module>rpt-modules</module>
         <module>rpt-common</module>
+        <module>rpt-turbine</module>
+        <module>rpt-hystrix-dashboard</module>
     </modules>
 
 </project>

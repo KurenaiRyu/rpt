@@ -1,6 +1,13 @@
 spring:
   application:
     name: rpt-eureka-server
+  freemarker:
+      prefer-file-system-access: false
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/NatsuSai/config-repo-demo
 
 server:
   port: 8761
@@ -9,5 +16,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+  server:
+#    enable-self-preservation: false
   instance:
     hostname: localhost

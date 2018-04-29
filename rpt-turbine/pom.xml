@@ -13,7 +13,7 @@
 
 
     <parent>
-        <groupId>com.github</groupId>
+        <groupId>com.github.rpt</groupId>
         <artifactId>rpt</artifactId>
         <version>${rpt.version}</version>
     </parent>
