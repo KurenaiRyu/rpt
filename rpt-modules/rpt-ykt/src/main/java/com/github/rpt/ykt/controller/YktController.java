@@ -33,10 +33,10 @@ public class YktController {
         return services;
     }
 
-    @GetMapping("/trace")
-    public String trace(){
+    @GetMapping("/trace-3")
+    public String trace3() {
         logger.info("===<call ykt>===");
-        return restTemplate.getForEntity("http://trace-1/trace-1", String.class).getBody();
+        return restTemplate.getForEntity("http://trace-3/trace", String.class).getBody();
     }
 
 }

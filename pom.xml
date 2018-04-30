@@ -59,6 +59,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--日志日志进行收集、过滤及存储-->
+        <!--<dependency>-->
+            <!--<groupId>net.logstash.logback</groupId>-->
+            <!--<artifactId>logstash-logback-encoder</artifactId>-->
+            <!--<version>4.6</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <modules>
@@ -68,6 +74,8 @@
         <module>rpt-common</module>
         <module>rpt-turbine</module>
         <module>rpt-hystrix-dashboard</module>
+        <module>rpt-config-server</module>
+        <module>rpt-zipkin-server</module>
     </modules>
 
 </project>

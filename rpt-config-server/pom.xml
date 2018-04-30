@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.rpt</groupId>
-    <artifactId>rpt-eureka-server</artifactId>
+    <artifactId>rpt-config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>rpt-eureka-server</name>
-    <description>Rpt Eureka Server</description>
+    <name>rpt-config-server</name>
+    <description>Rpt Config Server</description>
 
     <parent>
         <groupId>com.github.rpt</groupId>
@@ -20,7 +20,11 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
     </dependencies>
 

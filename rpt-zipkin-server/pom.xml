@@ -4,21 +4,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.rpt</groupId>
-    <artifactId>rpt-trace-1</artifactId>
+    <artifactId>rpt-zipkin-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>rpt-trace-1</name>
-    <description>Rpt Trace1</description>
+    <name>rpt-zipkin-server</name>
+    <description>Rpt Zipkin Server</description>
 
     <parent>
         <groupId>com.github.rpt</groupId>
-        <artifactId>rpt-modules</artifactId>
+        <artifactId>rpt</artifactId>
         <version>${rpt.version}</version>
     </parent>
 
     <dependencies>
-
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

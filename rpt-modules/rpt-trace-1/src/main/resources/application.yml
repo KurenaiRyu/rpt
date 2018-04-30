@@ -5,7 +5,15 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.200.233:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
 server:
   port: 8083
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: debug

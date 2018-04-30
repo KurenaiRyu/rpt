@@ -1,11 +1,25 @@
-spring:
-  application:
-    name: rpt-ykt
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
 
 server:
   port: 8081
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: debug
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0     #默认为0.1,设置为1.0后能够整合zipkin
+  rabbitmq:
+    username: kurenai
+    password: 123
+    port: 5672
+    host: localhost
+
