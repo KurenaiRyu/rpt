@@ -1,2 +1,2 @@
 # rpt
-The project of Spring Cloud excrcise
+The project of Spring Cloud exercise
